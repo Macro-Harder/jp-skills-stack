@@ -1,0 +1,28 @@
+name: ruling_walkthrough_pacing
+title: Ruling Walkthrough Pacing
+description: Walk the user through a pre-existing list of questions or rulings at the pace and in the format they set, so no item, part or option is stacked, re-read or skipped ahead.
+category: Communication
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - side chat 9bf7c702-48fd-48b9-888a-794bf2c2df8a AgenC escrow DQ walkthrough
+  - user f3368903 asked for time between each item to think
+  - user 9cd504e6 asked to go over the answers one by one
+  - user 1c1dfc41 corrected a return to question three while on question four
+  - user fa45a387 corrected moving to part two before part one had a solution
+  - user 64bcd30b asked for brief answers with less filler
+  - user 987a3e0e required stating how many parts a question has first
+  - user b32d403d required never re-reading a part unless specifically asked
+  - user 81ab031b restated the ask to cite the problem and then wait
+  - user 387bcb35 set the text format to present the whole question at once
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, ruling or decision walkthrough sessions complete items without a user correction about stacking items or options, re-reading unasked, moving to the next part before the current part is solved, or filler, and paused items are left unrecorded as ruled.
+    window_days: 30
+  needs_review: false
+  rationale: In one DQ ruling session the user had to correct the pacing repeatedly despite setting it at the start, including requests for thinking time, one by one presentation, no move to part two before part one is solved, brief answers, stating the part count first and never re-reading unasked, with a separate whole question format for text. The rules live only in memory preferences, and the closest existing skill, grill_mode, does the opposite by asking the whole frontier in one round, so a walkthrough over a pre-existing register needs its own discoverable method.
+  review_after: 2026-12-09T21:50:13.178224+00:00
+  reviewed_at: 2026-11-09T21:50:13.178224+00:00
+  run_id: sirun_7241c149d28f4820b0312c3c105f1fbf
