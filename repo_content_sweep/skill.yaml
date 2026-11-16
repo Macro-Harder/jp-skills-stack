@@ -1,0 +1,23 @@
+name: repo_content_sweep
+title: Repo Content Sweep
+description: Sweep a shipped repo tree for banned content inside file contents, not only in file names, before claiming the repo is clean.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - user 06c87242 with screenshots reporting two banned content problems still present in repos
+  - user 7872f8b3 stated design process sections should not be in any repo
+  - user d15ea902 ordered clean repos without those problems for all six DAIR repos
+  - assistant d865ae97 admitted the morning sweep removed brief and plan files but left readme content
+  - assistant eceb1bcd completed the re-clone with process sections and citations removed everywhere including source docstrings, verified via the GitHub API
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, every repo sweep or clean clone report includes per class content grep counts over readmes, docs, docstrings and fixtures plus a test result and API verified head, and no swept repo is later reported by the user to still contain a banned content class.
+    window_days: 30
+  needs_review: false
+  rationale: The morning clean clone sweep checked which files were present and removed working documents, but the user then found the same banned material still living in readme content, including a process section and citations to people who did not write the code. The assistant admitted the miss on the record, and the repair had to re-clone six repos after grepping contents down to source docstrings. No existing skill covers content level repo hygiene, and verified_fold_trace covers decision landing in documents, not banned content in shipped trees.
+  review_after: 2026-12-09T21:50:13.178224+00:00
+  reviewed_at: 2026-11-09T21:50:13.178224+00:00
+  run_id: sirun_7241c149d28f4820b0312c3c105f1fbf
