@@ -1,0 +1,5 @@
+name: "grill-mode"
+title: "Grill Mode"
+description: "Interview the user relentlessly before building anything, so the agent stops guessing and the plan is decided, written down, sliced into tickets and built test first."
+category: "Work and knowledge"
+include_in_prompt: true
