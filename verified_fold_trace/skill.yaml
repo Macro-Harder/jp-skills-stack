@@ -1,0 +1,23 @@
+name: verified_fold_trace
+title: Verified Fold and Trace
+description: Verify that every agreed decision actually landed in a large document or codebase, element by element, before claiming a round is complete.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 'MEMORY.md bridge-guard LOOP entry: AUDIT3 Purple trace 42/49 landed and cycle 4 trace 49/64 after overstated fold claims'
+  - 'MEMORY.md bridge-guard LOOP entry: TRACE-CYCLE5 51/51 LANDED on rev bg-2026-11-08.9'
+  - 'MEMORY.md bridge-guard LOOP entry: TRACE-CYCLE6 38/38 LANDED on rev bg-2026-11-08.10'
+  - 'MEMORY.md bridge-guard LOOP entry: TRACE-CYCLE8 first pass 22/23 LANDED with F229 PARTIAL, repaired and re-traced to 23/23 on rev bg-2026-11-08.12'
+  - 'MEMORY.md escrow entry: audit loop closed at head e2b462b954 with the recurring seam of gates applied per instruction instead of lien wide, in programs/agenc-mutual-escrow/AUDIT.md'
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, every fold or audit round reported complete is backed by an element trace with counts, and no independent trace contradicts a claimed complete round by finding unreported partial, contradicted or missing elements.
+    window_days: 30
+  needs_review: false
+  rationale: The bridge-guard loop overstated its early folds. Summaries claimed cycles 1 to 4 were folded, but independent traces found only 42 of 49 and then 49 of 64 elements landed, because folding from summaries dropped machinery. The loop recovered only after it switched to element by element folding plus an independent trace with quoted evidence, after which cycle 5 traced 51 of 51, cycle 6 traced 38 of 38, and cycle 8 caught its one partial element in the same fold and repaired it to 23 of 23. The escrow audit loop hit the analogous failure in code, with gates applied per instruction instead of across the whole lien. No existing skill covers this. Skill search returned documents, pstack_muse and grill_mode, which cover general document handling, coding method and pre-build interviews, not decision-by-decision fold verification. Codifying the proven method makes it discoverable for the next design or audit loop instead of leaving it only in one project record.
+  review_after: 2026-12-08T21:47:42.424837+00:00
+  reviewed_at: 2026-11-08T21:47:42.424837+00:00
+  run_id: sirun_9a2aa9a82491473f805d86bfa186b4ae
