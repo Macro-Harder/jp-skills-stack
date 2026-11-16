@@ -1,0 +1,24 @@
+name: coordinator_succession
+title: Coordinator Succession and Handover
+description: Hand over a multi agent build between coordinators without a silent stop, a depth trapped successor or an unverified claim, so work resumes from verified records at the next wave or step.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - assistant-msg-3664b9c6-9f72-4227-809a-a2a90aa902a0 Crucible coordinator quiet about 37 minutes, never seated closing seats, waiting on its own coordinator
+  - assistant-msg-c45eee90-55b7-29a8-7b00-0a1838f581ff Isolated checker stopped at Step 10 opening, coordinator finished and no successor started
+  - assistant-msg-4d8d1f10-f603-457d-b28b-101cb285a70d correction that a claimed running research wave was not running, coordinator ended without starting the wave, without spawning a successor and without leaving the flag
+  - assistant-msg-6b837b45-1234-869a-b8b4-4bb6725d92cb Crucible Step 5 coordinator seated one level too deep held no ability to spawn agents, could not seat 25 researchers, and an earlier coordinator in that chain ended silently
+  - assistant-msg-1c977ac4-888d-f6d0-9c99-de742222567b Track B Step 9 same depth trap, second proof a coordinator own spawn lands one level too deep, standing orders corrected so the Manager seats every successor directly
+  - assistant-msg-b17b9713-d923-46cb-9d23-727a0c7fddeb Crucible staffing confirmed from runtime agent records matching the roster seat for seat, with distinct file hashes and a spot checked line count
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, every coordinator handover is checkpointed in the handover or path ledger with verified state and an exact next action before the tour ends, every successor is seated directly at the Manager level with spawn capability proven before staffing, no build is left silently stopped with no successor and no SUCCESSOR NEEDED flag, and no coordinator claim about a wave running or agents spun up is reported to the user without a check against the build record or runtime agent records.
+    window_days: 30
+  needs_review: false
+  rationale: Coordinators repeatedly stalled or ended at wave and step boundaries in this window, and the first fix, self succession, was disproved twice on the record. Crucible stalled about 37 minutes after its teams finished, Isolated checker stopped at the Step 10 opening with no successor, and one Isolated checker report claimed a wave was running when the build record said no loop work had begun. Crucible Step 5 and Track B Step 9 both seated a coordinator through another coordinator, leaving it with no spawn capability at all and unable to staff its step. The corrected rule, Manager seats every successor directly, plus checkpointing, a SUCCESSOR NEEDED flag, and verifying claims against records the coordinator cannot edit, is the method that released both blocks. Skill search returned delegated_work_closeout as the closest skill. That skill recovers and reconciles repo state after a departed agent, naming local, remote, sealed and installed trees. It does not govern live succession, spawn depth, checkpoint before ending, or pre report verification of coordinator claims, and it is still inside its own measurement window, so this is a distinct prevention and handover method rather than an update or duplicate of it.
+  review_after: 2026-12-12T23:02:07.513925+00:00
+  reviewed_at: 2026-11-12T23:02:07.513925+00:00
+  run_id: sirun_8cd1ff31bfa84e2981c22f2baf70afdb

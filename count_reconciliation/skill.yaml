@@ -1,0 +1,23 @@
+name: count_reconciliation
+title: Count and Total Reconciliation
+description: Reconcile a count or total against its counting unit and derivation before reporting it, so totals are not double counted, stale or built from the wrong kind of item.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - user message 99cd5ea2 settled the Plaid logic audit count that way after a proof that 70 was the total across both loops, not per loop, moving Step 7 from 137 to 102 and Step 9 from 82 to 47
+  - assistant message 385d87f8 corrected the Step 12 spin up counter from 202 distinct agents to 895 total spin ups, made of 861 step team spin ups plus 23 Auditor approvals plus 11 standing
+  - assistant message 74e87181 fixed a checklist Low board that showed 32 from a guessed 3 note takers when the adopted draft size made the real total 33
+  - assistant message 27140db0 gave a best guess of about 100 checklist units against the settled 76, with roles and teams pushing it past 200 if counted as tickable
+  - 'chunk handoff finding: a board reported 15 working agents that were in fact scheduled jobs, with the real working agent count at zero plus 2 stale entries, and checklist loop totals disagreed across copies in the same window'
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, every count or total reported to the user states its counting unit and its derivation from named parts, and no reported total is later corrected by the user or by a later pass for double counting, counting the wrong kind of item, stale entries or a unit change such as distinct items versus every occurrence.
+    window_days: 30
+  needs_review: false
+  rationale: Counts and totals were corrected repeatedly in this window in independent places, and each correction traced to the counting unit rather than to arithmetic. A Plaid logic figure of 70 had been read per loop instead of across both loops. A spin up counter reported 202 distinct agents when the user meant every spin up, and the corrected total was 895. A board counted scheduled jobs as 15 working agents when the real count was zero, a checklist board total of 32 rested on a guessed team size when the adopted size gave 33, and a checklist unit estimate of about 100 stood against a settled 76. Skill search returned verified_fold_trace, which traces whether decisions landed element by element, and delegated_work_closeout, which reconciles repo states and forbids reconstructing a count from notes. Neither defines the counting unit, derives a total two independent ways, or checks for per loop versus whole flow and distinct versus every occurrence double counts, so this is a distinct reusable method rather than a duplicate. The other deterministic candidates, repeated handoff suppressions and objective loop failures, name no skill or connector fix in the raw evidence, and the four learned skills already published are still inside their measurement windows, so this audit proposes nothing for them.
+  review_after: 2026-12-11T22:24:25.977442+00:00
+  reviewed_at: 2026-11-11T22:24:25.977442+00:00
+  run_id: sirun_33d7fb95689848aa9362c341ceaec63c

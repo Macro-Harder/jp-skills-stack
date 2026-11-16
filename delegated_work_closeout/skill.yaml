@@ -1,0 +1,24 @@
+name: delegated_work_closeout
+title: Delegated Work Closeout Verification
+description: Recover and verify the true state of delegated work when a coordinator or agent ends without a final report, before reporting what was built or claiming a stage closed.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 'MEMORY.md Bulkhead entry: first coordinator ended without a final report, state verified at design 7b65b974 and public 04a6ed2f, and a continuation coordinator was re-dispatched'
+  - 'MEMORY.md Ownforge entry: verified first hand by Muse, public Macro-Harder/ownforge c10e2e19 and private ownforge-design f3730adb, clean copy suite 138 of 138 OK'
+  - 'assistant report 2b14c025 Everloop halt: SEAL names head 3858c99a but the local clone is e1cf4526 and hash identity was never proven'
+  - 'assistant report dc1fae0f Touchstone finished-product audit: the live AgenC install still holds pre-audit code and the only live proof covers the superseded build'
+  - 'MEMORY.md Vigil entry: suite 437 of 438 on this VM and the wider 437 pass, 11 fail, 149 error scare was environmental'
+  - 'assistant report 4600b227 Scaleforge halt: public head 3868b5af is a seed README only with no code, while the design repo at 18cce43f carries the full pre-build record, both API verified'
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In the window, every closeout, halt or recovery report for delegated work records the local tree, the API fetched remote head, the sealed or clean copy tree and the installed copy as separate states with any drift named, gives a test result tied to a named verified tree or marks it not run, and no reported head, hash or count is later found to have been reconstructed from truncated notes or to mismatch the remote.
+    window_days: 30
+  needs_review: false
+  rationale: 'Delegated coordinators repeatedly ended without a final report across this window, including the first Bulkhead coordinator, and at least one filing pass reconstructed repo hashes from truncated notes twice in one night. The recoveries that worked shared one method: verify first hand on disk and through the GitHub API, run tests from a clean copy, and write the verdict to disk as it goes. The same window showed why the states must stay separate, with an Everloop seal naming one head while the local clone carried another and identity never proven, a Touchstone install still running pre-audit code under a live proof of a superseded build, and a Vigil suite scare that proved environmental rather than a regression. Skill search returned verified_fold_trace, which traces whether decisions landed in a document, and repo_content_sweep, which greps shipped contents and verifies a push as one step of a sweep. Neither covers recovering and reconciling the state of delegated work whose reporter is gone, so this is a distinct reusable method rather than a duplicate. Other strong patterns in the window, staffing definitions and halt protocol wording, are the user own pending dictation and hold rulings, so this audit proposes nothing for them.'
+  review_after: 2026-12-10T21:46:16.486985+00:00
+  reviewed_at: 2026-11-10T21:46:16.486985+00:00
+  run_id: sirun_82abe373ab8f4be785dfb0ada97996e9
