@@ -20,6 +20,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Note-Taking Team](note-taking-team/) runs a note taking team over a primary source before a build or decision rests on it.
 - [Principles Check](principles-check/) is the procedure for checking work against an adopted set of build principles.
 - [Push Discipline](push-discipline/) sets the rules for pushing work to GitHub during a build.
+- [Red Flag Check](red-flag-check/) names each of the eleven annex red flags present or absent inside a step ruling or gate record at an approval gate or the release gate.
 - [Release Gate](release-gate/) is the checklist for the release gate stage of a build, and for any repo about to be called shipped.
 - [Repo Content Sweep](repo_content_sweep/) sweeps a shipped repo tree for banned content inside file contents, not only in file names.
 - [Requirement Grammar](requirement-grammar/) writes requirement statements in a defined grammar and runs presence checks over the stated forms.
