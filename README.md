@@ -12,6 +12,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Coordinator Succession and Handover](coordinator_succession/) covers handing a multi agent build over between coordinators without a silent stop.
 - [Count and Total Reconciliation](count_reconciliation/) reconciles a count or total against its counting unit and derivation before it is reported.
 - [Delegated Work Closeout Verification](delegated_work_closeout/) recovers and verifies the true state of delegated work when an agent ends without a final report.
+- [Experimenter Method](experimenter-method/) turns a contested, load-bearing assumption into a falsifiable test, with hypothesis, metric, falsifying result, and selector criteria fixed before the run, and judges whether a run offered as proof counts as a test.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
 - [MCP Era Migration](mcp-era-migration/) covers moving an MCP server from the handshake era toward the stateless spec revision.
 - [MCP Server Security Review](mcp-server-security-review/) audits an MCP server before it is trusted, and again when its tools, transport, or auth change.
