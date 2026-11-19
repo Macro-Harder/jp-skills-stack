@@ -5,7 +5,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [A2A 1.1 Readiness](a2a-1-1-readiness/) records the standing position on A2A version 1.1 for planning and design work, and what 1.1 would change.
 - [A2A Card Signing](a2a-card-signing/) covers producing and verifying signed A2A Agent Cards.
 - [A2A Version Negotiation](a2a-version-negotiation/) covers version negotiation for A2A surfaces that may meet a peer of a different generation.
-- [Agent Admission Pipeline](agent-admission-pipeline/) admits a new agent, model, or harness version through six stages, each exiting on a paired comparison verdict against the incumbent.
 - [Audit Independence](audit-independence/) establishes an auditor independence by naming five threats and dispositioning each one before any audit work counts.
 - [Audit Run](audit-run/) is the short form for running an audit inside a build: loop, logic, test, and finished product audits.
 - [Auditor Approval Gate](auditor-approval-gate/) runs the Auditor approval gate on a finished build flow step, from packet to recorded ruling.
