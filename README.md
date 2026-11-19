@@ -42,6 +42,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Team Staffing](team-staffing/) gives the team sizes and staffing rules for seating a team at any stage of a build, by tier.
 - [The Charge](the-charge/) opens an audit or review round on a written charge naming scope, success criteria, agenda, criteria, and materials, agreed before examination.
 - [Tool Evaluation Checklist](tool-evaluation-checklist/) maps any tool considered for eval-driven development against the twelve harness primitives before adoption.
+- [Use-It Loop](use-it-loop/) has a first user who never built the product drive the real interface through real work, fixes what real use breaks, and loops until it holds.
 - [Verified Fold and Trace](verified_fold_trace/) verifies that every agreed decision actually landed in a large document or codebase, element by element.
 - [Write Tests, Audit Test](write-tests-audit-test/) writes and audits the tests for a build step at Step 13, before the code they test exists.
 
