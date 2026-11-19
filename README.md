@@ -45,7 +45,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [The Charge](the-charge/) opens an audit or review round on a written charge naming scope, success criteria, agenda, criteria, and materials, agreed before examination.
 - [Tool Evaluation Checklist](tool-evaluation-checklist/) maps any tool considered for eval-driven development against the twelve harness primitives before adoption.
 - [Verified Fold and Trace](verified_fold_trace/) verifies that every agreed decision actually landed in a large document or codebase, element by element.
-- [Working Loop Start](working-loop-start/) runs the first two steps of the eval-driven working loop: spec one behaviour and pass the two-expert test, then build the eval first and watch it fail in the right places.
 - [Write Tests, Audit Test](write-tests-audit-test/) writes and audits the tests for a build step at Step 13, before the code they test exists.
 
 Licensed under Apache 2.0. Copyright 2026 J.P. Picard aka Macro-Harder.
