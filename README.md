@@ -40,6 +40,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Ruling Walkthrough Pacing](ruling_walkthrough_pacing/) walks a user through a pre existing list of questions or rulings at the pace and format the user sets.
 - [Skip Checklist](skip-checklist/) is used before adopting or skipping a move inside a build flow step, and when a step record claims or omits a move.
 - [Team Staffing](team-staffing/) gives the team sizes and staffing rules for seating a team at any stage of a build, by tier.
+- [The Charge](the-charge/) opens an audit or review round on a written charge naming scope, success criteria, agenda, criteria, and materials, agreed before examination.
 - [Verified Fold and Trace](verified_fold_trace/) verifies that every agreed decision actually landed in a large document or codebase, element by element.
 - [Write Tests, Audit Test](write-tests-audit-test/) writes and audits the tests for a build step at Step 13, before the code they test exists.
 
