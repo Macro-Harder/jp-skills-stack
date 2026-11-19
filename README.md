@@ -14,6 +14,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Delegated Work Closeout Verification](delegated_work_closeout/) recovers and verifies the true state of delegated work when an agent ends without a final report.
 - [Experimenter Method](experimenter-method/) turns a contested, load-bearing assumption into a falsifiable test, with hypothesis, metric, falsifying result, and selector criteria fixed before the run, and judges whether a run offered as proof counts as a test.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
+- [Handoff Timing](handoff-timing/) produces the timing line that rides with a counting report in chat, with each figure labelled measured or derived.
 - [Live Proof](live-proof/) runs the finished product on the real system it was built for with real work, and records a verdict that names anything the run did not carry.
 - [MCP Era Migration](mcp-era-migration/) covers moving an MCP server from the handshake era toward the stateless spec revision.
 - [MCP Server Security Review](mcp-server-security-review/) audits an MCP server before it is trusted, and again when its tools, transport, or auth change.
