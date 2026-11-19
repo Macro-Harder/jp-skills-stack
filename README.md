@@ -20,6 +20,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Document Checking](document-checking/) checks a brief or plan as a document in two separate passes, verification of its statements and validation against the decisions they came from.
 - [Experimenter Method](experimenter-method/) turns a contested, load-bearing assumption into a falsifiable test, with hypothesis, metric, falsifying result, and selector criteria fixed before the run, and judges whether a run offered as proof counts as a test.
 - [Failed Node Retry](failed-node-retry/) maps a multi-agent job as a graph with owners and verifiers, and on failure re-runs only the failed nodes, never the whole batch.
+- [Fresh Eyes Review](fresh-eyes-review/) splits a memory-rich builder session from a memory-free reviewer, so finished work is read by a stranger with no history in it.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
 - [Handoff Timing](handoff-timing/) produces the timing line that rides with a counting report in chat, with each figure labelled measured or derived.
 - [Judge Validation](judge-validation/) validates an automated judge end to end: blind human labelling, blind judging, kappa comparison, a swap test, disagreement review, and rubric iteration.
