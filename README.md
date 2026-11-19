@@ -9,7 +9,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Auditor Approval Gate](auditor-approval-gate/) runs the Auditor approval gate on a finished build flow step, from packet to recorded ruling.
 - [Brainstew Use](brainstew-use/) covers how to use Brainstew, a build's shared memory, on a build that has it installed.
 - [Build Flow](build-flow/) is the short form for running a build in the right order with the right gates.
-- [Context Fork Handoff](context-fork-handoff/) hands work to a subagent by forking the session with full context, working in series with retrieval, or splitting into fresh parallel sessions, instead of losing information in a summary brief.
 - [Coordinator Succession and Handover](coordinator_succession/) covers handing a multi agent build over between coordinators without a silent stop.
 - [Count and Total Reconciliation](count_reconciliation/) reconciles a count or total against its counting unit and derivation before it is reported.
 - [Delegated Work Closeout Verification](delegated_work_closeout/) recovers and verifies the true state of delegated work when an agent ends without a final report.
