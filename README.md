@@ -34,7 +34,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Note-Taking Team](note-taking-team/) runs a note taking team over a primary source before a build or decision rests on it.
 - [Pattern Gate](pattern-gate/) runs the gate for adopting or removing a design pattern, on a complete gate record filed before any outcome.
 - [Pattern Skip Test](pattern-skip-test/) puts six questions to a pattern proposal, and any field answered no means skip for now.
-- [Pre-Plan](pre-plan/) scopes the work, its options, and its open questions before the grill, on a shared evidence register kept by a clerk.
 - [Principles Check](principles-check/) is the procedure for checking work against an adopted set of build principles.
 - [Push Discipline](push-discipline/) sets the rules for pushing work to GitHub during a build.
 - [Red Flag Check](red-flag-check/) names each of the eleven annex red flags present or absent inside a step ruling or gate record at an approval gate or the release gate.
