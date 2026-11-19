@@ -18,7 +18,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Fresh Eyes Review](fresh-eyes-review/) splits a memory-rich builder session from a memory-free reviewer, so finished work is read by a stranger with no history in it.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
 - [Handoff Timing](handoff-timing/) produces the timing line that rides with a counting report in chat, with each figure labelled measured or derived.
-- [Harness Cost Tuning](harness-cost-tuning/) tunes an agent harness from its execution logs, one mechanism at a time, keeping or discarding each change on measured quality and cost gates.
 - [Live Proof](live-proof/) runs the finished product on the real system it was built for with real work, and records a verdict that names anything the run did not carry.
 - [MCP Era Migration](mcp-era-migration/) covers moving an MCP server from the handshake era toward the stateless spec revision.
 - [MCP Server Security Review](mcp-server-security-review/) audits an MCP server before it is trusted, and again when its tools, transport, or auth change.
