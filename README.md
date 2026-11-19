@@ -16,6 +16,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Coordinator Succession and Handover](coordinator_succession/) covers handing a multi agent build over between coordinators without a silent stop.
 - [Count and Total Reconciliation](count_reconciliation/) reconciles a count or total against its counting unit and derivation before it is reported.
 - [Delegated Work Closeout Verification](delegated_work_closeout/) recovers and verifies the true state of delegated work when an agent ends without a final report.
+- [Document Checking](document-checking/) checks a brief or plan as a document in two separate passes, verification of its statements and validation against the decisions they came from.
 - [Experimenter Method](experimenter-method/) turns a contested, load-bearing assumption into a falsifiable test, with hypothesis, metric, falsifying result, and selector criteria fixed before the run, and judges whether a run offered as proof counts as a test.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
 - [Handoff Timing](handoff-timing/) produces the timing line that rides with a counting report in chat, with each figure labelled measured or derived.
