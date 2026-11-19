@@ -28,7 +28,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Judge Validation](judge-validation/) validates an automated judge end to end: blind human labelling, blind judging, kappa comparison, a swap test, disagreement review, and rubric iteration.
 - [Live Proof](live-proof/) runs the finished product on the real system it was built for with real work, and records a verdict that names anything the run did not carry.
 - [MCP Era Migration](mcp-era-migration/) covers moving an MCP server from the handshake era toward the stateless spec revision.
-- [MCP Server Builder](mcp-server-builder/) designs and builds a new MCP server from scratch: tool design, transport choice, boundary validation, and Inspector testing.
 - [MCP Server Security Review](mcp-server-security-review/) audits an MCP server before it is trusted, and again when its tools, transport, or auth change.
 - [Metrics and Reporting](metrics-and-reporting/) sets the counting and reporting rules for a build whenever it reports status or counts anything.
 - [rag-muse](muse-rag/) is hybrid BM25 and vector search over the user's own notes and memory files, with cited, provenance labelled results.
