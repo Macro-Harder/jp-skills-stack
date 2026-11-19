@@ -22,6 +22,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Failed Node Retry](failed-node-retry/) maps a multi-agent job as a graph with owners and verifiers, and on failure re-runs only the failed nodes, never the whole batch.
 - [Fresh Eyes Review](fresh-eyes-review/) splits a memory-rich builder session from a memory-free reviewer, so finished work is read by a stranger with no history in it.
 - [Grill Mode](grill-mode/) interviews the user before building anything, so the plan is decided first instead of guessed.
+- [Guardrail Layer Audit](guardrail-layer-audit/) audits an agent guardrails layer by layer and replaces controls that only inspect text with controls that remove the capability.
 - [Handoff Timing](handoff-timing/) produces the timing line that rides with a counting report in chat, with each figure labelled measured or derived.
 - [Judge Validation](judge-validation/) validates an automated judge end to end: blind human labelling, blind judging, kappa comparison, a swap test, disagreement review, and rubric iteration.
 - [Live Proof](live-proof/) runs the finished product on the real system it was built for with real work, and records a verdict that names anything the run did not carry.
