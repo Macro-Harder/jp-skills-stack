@@ -7,6 +7,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [A2A Version Negotiation](a2a-version-negotiation/) covers version negotiation for A2A surfaces that may meet a peer of a different generation.
 - [Agent Admission Pipeline](agent-admission-pipeline/) admits a new agent, model, or harness version through six stages, each exiting on a paired comparison verdict against the incumbent.
 - [Arbitration Protocol](arbitration-protocol/) settles a disputed eval case in seven steps: freeze, transcript, classify, fix, rule, override, and the eval-wrong ratio.
+- [Attempt to Break It](attempt-to-break-it/) attacks the built product adversarially with independent attackers, fixes what breaks, and loops until it holds.
 - [Audit Run](audit-run/) is the short form for running an audit inside a build: loop, logic, test, and finished product audits.
 - [Auditor Approval Gate](auditor-approval-gate/) runs the Auditor approval gate on a finished build flow step, from packet to recorded ruling.
 - [Brainstew Use](brainstew-use/) covers how to use Brainstew, a build's shared memory, on a build that has it installed.
