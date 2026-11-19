@@ -42,6 +42,7 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Release Gate](release-gate/) is the checklist for the release gate stage of a build, and for any repo about to be called shipped.
 - [Repo Content Sweep](repo_content_sweep/) sweeps a shipped repo tree for banned content inside file contents, not only in file names.
 - [Requirement Grammar](requirement-grammar/) writes requirement statements in a defined grammar and runs presence checks over the stated forms.
+- [Skill Retirement Test](skill-retirement-test/) re-tests each existing skill against the bare model on a fixed set of real tasks, and keeps, revises, or deletes it on that evidence.
 - [Ruling Walkthrough Pacing](ruling_walkthrough_pacing/) walks a user through a pre existing list of questions or rulings at the pace and format the user sets.
 - [Skip Checklist](skip-checklist/) is used before adopting or skipping a move inside a build flow step, and when a step record claims or omits a move.
 - [Team Staffing](team-staffing/) gives the team sizes and staffing rules for seating a team at any stage of a build, by tier.
