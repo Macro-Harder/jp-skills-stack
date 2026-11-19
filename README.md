@@ -16,7 +16,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Coordinator Succession and Handover](coordinator_succession/) covers handing a multi agent build over between coordinators without a silent stop.
 - [Count and Total Reconciliation](count_reconciliation/) reconciles a count or total against its counting unit and derivation before it is reported.
 - [Delegated Work Closeout Verification](delegated_work_closeout/) recovers and verifies the true state of delegated work when an agent ends without a final report.
-- [Document Checking](document-checking/) checks a brief or plan as a document in two separate passes, verification of its statements and validation against the decisions they came from.
 - [Experimenter Method](experimenter-method/) turns a contested, load-bearing assumption into a falsifiable test, with hypothesis, metric, falsifying result, and selector criteria fixed before the run, and judges whether a run offered as proof counts as a test.
 - [Failed Node Retry](failed-node-retry/) maps a multi-agent job as a graph with owners and verifiers, and on failure re-runs only the failed nodes, never the whole batch.
 - [Fresh Eyes Review](fresh-eyes-review/) splits a memory-rich builder session from a memory-free reviewer, so finished work is read by a stranger with no history in it.
