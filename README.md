@@ -28,7 +28,6 @@ A stack of agent skills. A skill is a reusable procedure an agent loads on its o
 - [Metrics and Reporting](metrics-and-reporting/) sets the counting and reporting rules for a build whenever it reports status or counts anything.
 - [rag-muse](muse-rag/) is hybrid BM25 and vector search over the user's own notes and memory files, with cited, provenance labelled results.
 - [Note-Taking Team](note-taking-team/) runs a note taking team over a primary source before a build or decision rests on it.
-- [Pattern Gate](pattern-gate/) runs the gate for adopting or removing a design pattern, on a complete gate record filed before any outcome.
 - [Pattern Skip Test](pattern-skip-test/) puts six questions to a pattern proposal, and any field answered no means skip for now.
 - [Principles Check](principles-check/) is the procedure for checking work against an adopted set of build principles.
 - [Push Discipline](push-discipline/) sets the rules for pushing work to GitHub during a build.
